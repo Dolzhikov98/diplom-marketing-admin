@@ -1,0 +1,17 @@
+.SecondSection {
+  display: flex;
+  height: 100vh;
+  padding-top: 72px;
+}
+.MainSection {
+  position: relative;
+  flex-grow: 1;
+  width: 100%;
+  height: 100%;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}

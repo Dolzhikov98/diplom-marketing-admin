@@ -1,0 +1,51 @@
+.SignInContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  .Card {
+    width: 620px;
+    padding: 20px 100px;
+  }
+  .Header {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .LinkContainer {
+    text-align: center;
+    margin-top: 12px;
+  }
+  .Link {
+    text-decoration: none;
+    opacity: 0.7;
+    transition: 0.2s;
+    color: #295bac;
+    font-weight: 600;
+    &:hover {
+      opacity: 1;
+    }
+    cursor: pointer;
+  }
+}
+.DialogContainer {
+  margin-top: -10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .Header {
+    font-size: 18px;
+    margin-bottom: 35px;
+  }
+}
+
+.modalHeader {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+  // margin-top: 20px;
+}

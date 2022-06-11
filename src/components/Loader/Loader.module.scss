@@ -1,0 +1,27 @@
+.loaderWrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(66, 65, 65);
+  z-index: 100000;
+  flex-direction: column;
+  opacity: 0.6;
+  p {
+    font-size: 32px;
+    color: rgb(36, 238, 17);
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    padding-left: 20px;
+  }
+}
+
+.showLoader {
+  display: flex;
+}
+
+.hideLoader {
+  display: none;
+}

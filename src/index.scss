@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: "Roboto";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+}
+
+html {
+  font-size: 14px;
+}
+button,
+input,
+textarea {
+  font-family: inherit;
+  border: none;
+  outline: none;
+}
+span,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  width: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.p-menubar-end {
+  margin-left: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.p-menubar-root-list {
+  margin: 0 !important;
+  margin-left: auto !important;
+}
+.p-menubar {
+  border-radius: 0px !important;
+  height: 72px !important;
+  border: none !important;
+  background-color: #f8f9fa;
+}
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-text {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 17px;
+  color: #5f656b;
+}
+.p-menubar .p-menuitem {
+  margin-right: 39px;
+}
+.p-datatable .p-datatable-header {
+  display: none !important;
+}
+.p-button {
+  img {
+    margin-right: 8px !important;
+  }
+}
+.p-button,
+.p-button-label {
+  font-weight: bold !important;
+  font-size: 12px !important;
+  line-height: 17px !important;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.p-toast {
+  opacity: 1 !important;
+}
+
+.p-menubar-start {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.p-datatable .p-datatable-tbody > tr > td {
+  padding: 0 !important;
+}
+

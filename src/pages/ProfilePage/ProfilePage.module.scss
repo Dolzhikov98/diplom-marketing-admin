@@ -1,0 +1,72 @@
+.ProfileContainer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  overflow-y: auto;
+
+  > div {
+    min-width: 600px;
+  }
+
+  .ProfileContent {
+    max-width: 800px;
+    .Content {
+      overflow-wrap: anywhere;
+      margin-top: 20px;
+    }
+
+    .ButtonContainer {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}
+.p-component,
+.p-component * {
+  margin-top: 50px !important;
+}
+
+.paymentOperationBlock {
+  width: 100%;
+  background-color: #fdfdfd;
+  padding: 15px 32px 60px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 50px;
+  .paymentOperationBlockTitle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 16px;
+    h1 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1.5em;
+      line-height: 24px;
+      color: #495057;
+    }
+    > button {
+      position: absolute;
+      width: 27px;
+      height: 27px;
+      background-color: #3b82f6;
+      right: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+.tableWrapper {
+  width: 100%;
+}
+.cardWrapper {
+  margin-top: 50px;
+}
